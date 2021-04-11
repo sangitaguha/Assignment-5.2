@@ -1,0 +1,9 @@
+body{
+    background-color: coral;
+    background-position: 0%;
+    border-style: none;
+}
+
+nav{
+    float: right;
+}
