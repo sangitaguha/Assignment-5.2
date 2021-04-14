@@ -1,0 +1,21 @@
+body{
+    background-color: orange;
+    
+}
+nav{
+    float: right;
+}
+
+h1{
+    color: blue;
+    font-style: normal;
+    bottom: auto;
+    
+}
+p:hover, h1:hover, body:hover{
+    background-color: pink;
+}
+link{
+    display:none;
+}
+ 
