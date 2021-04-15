@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
 
+
 <title>Restaurant</title>
 </head>
 <body>
     <Section>
-    <main class=name>
     <h1>Cooking Master</h1>
     <nav>
     <ul>
@@ -20,16 +20,15 @@
         <a href="Blog">Blog</a>
     </ul>
     </nav>
-   </main>
-        
+        <ul class="item">
     
         <form action="/action_page.php">
         <label for="search">Search :</label>
         <input type="search" id="gsearch" name="click">
-        <button><a href="Recipes">submit</a></button> 
+        <a href="Recipes.html"><input style="color: mediumblue;" type="submit"></a>
         </form>
     
-    <div id="items">
+    
     <nav style="column-count:4; column-gap: 2px, 2px; padding: 20px;">
     
 
@@ -84,50 +83,9 @@
                     </a>
                     
                 </nav>
-        </div>
+            </ul>
                
     </Section>
-    <script>
-
-
-        function displayItems (items) {
-        const itemNames = item.map(item => item.itemNames); 
-        const div = document.getElementById("items-container");
-        for(let i = 0; i<itemNames.length; i++){
-                const itemNames = itemNames[i];
-                const id = document.createElement("id");
-                id.innerText = userNames;
-                div.appendChild(li)    
-        }
-        
-        }
-        // document.getElementById('items');
-
-    
-        
-
-
-
-
-        const myObj = {
-            name: 'vegan salad bowl.html',
-            getFullName: function(items){
-                console.log(this);
-                return 'item'+ this.name;
-            }
-             
-        }
-        // myObj.getFullName();
-        const anotherObj = {
-            name: 'chicken Sandwich.html'
-        }
-        anotherObj.getFullName = myObj.getFullName;
-        console.log(anotherObj.getFullName);
-        anotherObj.getFullName();
-    </script>
-
-
-
     <script src="app.js" ></script>
 </body>
 </html>
